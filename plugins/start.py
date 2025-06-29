@@ -58,7 +58,7 @@ async def start_command(client: Client, message: Message):
         if "verify_" in message.text:
             _, token = message.text.split("_", 1)
             if verify_status['verify_token'] != token:
-                return await message.reply("Your token is invalid or Expired. Try again by clicking /start")
+                return await message.reply("Your token is Expired. Try again by clicking /start")
             await update_verify_status(id, is_verified=True, verified_time=time.time())
             if verify_status["link"] == "":
                 reply_markup = None
@@ -124,7 +124,7 @@ async def start_command(client: Client, message: Message):
                 except:
                     pass
 
-            SD = await message.reply_text("Baka! Files will be deleted After 600 seconds. Save them to the Saved Message now!")
+            SD = await message.reply_text("Join for more Video👉 @motulinks")
             await asyncio.sleep(600)
 
             for snt_msg in snt_msgs:
