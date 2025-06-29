@@ -48,7 +48,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/bolomotu/1378")
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @wrrohit02</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>◈ Adult : <a href=https://t.me/+A9U62ZfrbEZkZWZl>Join Now</a>\n◈ Movies : <a href=https://t.me/+IqIpe9Yoqa9jNDE1>Join Now</a>\n◈ Mainn Channel : <a href=https://t.me/motumovies>Join Now</a>\n◈ Backup: <a href=https://t.me/motulinks>Join Now</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/vipmotu>Vip Motu</a></blockquote></b>")
 try:
     ADMINS=[6695586027]
     for x in (os.environ.get("ADMINS", "5783103507").split()):
