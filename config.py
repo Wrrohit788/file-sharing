@@ -96,10 +96,5 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-if 'DYNO' in environ:
-    ON_HEROKU = True
-else:
-    ON_HEROKU = False
-URL = environ.get("URL", "https://amazing-shanna-fsdvzcvzxv-b453ad16.koyeb.app/")
 
 
