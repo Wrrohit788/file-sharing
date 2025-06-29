@@ -124,7 +124,7 @@ async def start_command(client: Client, message: Message):
                 except:
                     pass
 
-            SD = await message.reply_text("𝐓𝐡𝐢𝐬 𝐰𝐢𝐥𝐥 𝐝𝐞𝐥𝐞𝐭𝐞 𝐢𝐧 𝟏𝟎 𝐦𝐢𝐧")
+            SD = await message.reply_text("Baka! Files will be deleted After 600 seconds. Save them to the Saved Message now!")
             await asyncio.sleep(600)
 
             for snt_msg in snt_msgs:
@@ -161,10 +161,10 @@ async def start_command(client: Client, message: Message):
                 await update_verify_status(id, verify_token=token, link="")
                 link = await get_shortlink(SHORTLINK_URL, SHORTLINK_API,f'https://telegram.dog/{client.username}?start=verify_{token}')
                 btn = [
-                    [InlineKeyboardButton("𝐖𝐚𝐭𝐜𝐡 𝐚𝐝𝐬", url=link)],
-                    [InlineKeyboardButton('𝐇𝐨𝐰 𝐭𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ', url=TUT_VID)]
+                    [InlineKeyboardButton("Click here", url=link)],
+                    [InlineKeyboardButton('How to use the bot', url=TUT_VID)]
                 ]
-                await message.reply(f"Your Ads token is expired, refresh your token and try again.\n\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\nWhat is the token?\n\nThis is an ads token. If you pass 1 ad, you can use the bot for  Hour after passing the ad.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                await message.reply(f"Your Ads token is expired, refresh your token and try again.\n\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\nWhat is the token?\n\nThis is an ads token. If you pass 1 ad, you can use the bot for 24 Hour after passing the ad.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
 
 
 WAIT_MSG = "<b>ᴡᴏʀᴋɪɴɢ....</b>"
@@ -187,7 +187,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = '• 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 •',
+                    text = '• ɴᴏᴡ ᴄʟɪᴄᴋ ʜᴇʀᴇ •',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
