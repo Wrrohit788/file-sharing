@@ -124,7 +124,7 @@ async def start_command(client: Client, message: Message):
                 except:
                     pass
 
-            SD = await message.reply_text("Join for more Video👉 @motulinks")
+            SD = await message.reply_text("Buy Premium 👉 @motumovies")
             await asyncio.sleep(600)
 
             for snt_msg in snt_msgs:
