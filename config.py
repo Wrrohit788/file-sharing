@@ -45,7 +45,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "yummyurl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "f4e1787c1041fd077f95c6a721901f51dfebf0f6")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/motulinks")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/bolomotu/1314")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>◈ Adult : <a href=https://t.me/motumovies>Join Now</a>\n◈ Movies : <a href=https://t.me/motulinks>Join Now</a>\n◈ Mainn Channel : <a href=https://t.me/motumoviess>Join Now</a>\n</a>\n◈ How to Download: <a href=https://t.me/bolomotu/1314>Watch Now</a>\n</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/vipmotus>Vip Motu</a></blockquote></b>")
