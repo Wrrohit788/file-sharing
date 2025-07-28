@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8353723670:AAG8zb5jbnKxhgdRqN4SFhNbOD27gHtC-RY")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "27693415"))
@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "8dc020d35ff99813b494f20955d8c724")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002558615397"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "8115758627"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "27693415"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -50,8 +50,8 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/bolomotu/1314")
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>◈ Adult : <a href=https://t.me/motumovies>Join Now</a>\n◈ Movies : <a href=https://t.me/motulinks>Join Now</a>\n◈ Mainn Channel : <a href=https://t.me/motumoviess>Join Now</a>\n</a>\n◈ How to Download: <a href=https://t.me/bolomotu/1314>Watch Now</a>\n</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/vipmotus>Vip Motu</a></blockquote></b>")
 try:
-    ADMINS=[6695586027]
-    for x in (os.environ.get("ADMINS", "6416933624").split()):
+    ADMINS=[27693415]
+    for x in (os.environ.get("ADMINS", "27693415").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -72,7 +72,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @wrrohit02"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6416933624)
+ADMINS.append(27693415)
 
 LOG_FILE_NAME = "codeflixbots.txt"
 
